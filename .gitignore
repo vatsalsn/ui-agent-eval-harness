@@ -147,3 +147,19 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# Playwright output
+playwright-report/
+test-results/
+
+# Python (for later analysis scripts)
+__pycache__/
+.venv/
+.ipynb_checkpoints/
+
+# Big run artifacts (keep small samples, ignore the bulk)
+results/traces/
+results/screenshots/
+
+# Editor
+.vscode/
